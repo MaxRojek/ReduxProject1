@@ -7,3 +7,7 @@ export const decrement = () => {
 export const signIn = () => {
   return { type: "SIGN_IN" };
 };
+export const addTask = (name) => ({
+  type: "NEW_TASK",
+  name: name,
+});
